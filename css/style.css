@@ -1,12 +1,12 @@
 body {
     background-color: rgb(19, 152, 192);
         }
-        
+
 h1      {
     color: yellow; 
     font-family: Times;
     text-align: center;
-    font-size: 50;
+    font-size: 60;
         }
     
 h2      {
@@ -20,7 +20,7 @@ h2      {
         }
 
 #topten {
-        color: rgb(13, 71, 42);
+        color: rgb(219, 148, 16);
         text-decoration: underline;
         }
 

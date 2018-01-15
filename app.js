@@ -123,7 +123,7 @@ function busRide() {
   } while (flag === true);
 }
 busRide();
-//Question 6 Months lived in Seattle
+
 function seattleFreeze(){
   var monthsHere = 14;
   do{
@@ -136,10 +136,10 @@ function seattleFreeze(){
       alert('Correct!! Been here a year and change.');
       break;
     } else if(monthsGuess < 14){
-      flag = true;
+      flag === true;
       alert('Nope! Been here longer!');
     } else {
-      flag = true;
+      flag === true;
       alert('Haven\'t been here that long!');
     } if (counter >= 5 && flag === false) {
       alert('Sorry! You maxed out your guesses!');
@@ -159,17 +159,17 @@ function statesHome() {
       if(difState === statesLived[i]){
         alert('Correct! I have lived in ' + statesLived.join(' '));
         tally++;
-        flag = false;
+        flag === false;
         console.log('The user guessed correct state lived' + statesLived);
         break;
       }
-      else {
-        flag = true;
+      else (flag === true); {
         alert('Nope! Guess again!');
       }
-      if (counter > 5) {
+      if (counter > 5); {
         alert('Sorry! You maxed out your guesses!');
         flag === false;
+        break;
       }
     }
   } while(counter <= 5 && flag === true);

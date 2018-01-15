@@ -12,6 +12,4 @@ https://www.youtube.com/playlist?list=PLVngfM2hsbi_774fBCwiIvZu8E-tQvevk
 "Javascript & JQuery - Interactive Front-End Web Development" textbook by: Jon Duckett
 
 Pair-programming assistance and Peer Review:
-
-Judah Hunger
-Megan Flood
+-Judah Hunger
